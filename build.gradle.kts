@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.mockito:mockito-junit-jupiter:3.8.0")
+    testImplementation("org.mockito:mockito-inline:3.8.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
+    testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.24")
 }
 
 tasks.test {
